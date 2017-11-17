@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Zircon_Verilog\Verilog_First\simulation\modelsim
+vVerilog_First
+I2Vo<4OUJ75Af0Do7gJgg50
+V<BaEE:flf_e^8YKm_L@X]0
+Z1 dE:\Zircon_Verilog\Verilog_First\simulation\modelsim
+w1458482149
+8E:/Zircon_Verilog/Verilog_First/Verilog_First.v
+FE:/Zircon_Verilog/Verilog_First/Verilog_First.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@verilog_@first
+!i10b 1
+!s100 YfAL0>m2K@e]V0jSID<AV3
+!s85 0
+!s108 1458545345.548000
+!s107 E:/Zircon_Verilog/Verilog_First/Verilog_First.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Zircon_Verilog/Verilog_First|E:/Zircon_Verilog/Verilog_First/Verilog_First.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/Zircon_Verilog/Verilog_First -O0
+vVerilog_First_vlg_tst
+!i10b 1
+!s100 4Sj:V34KYzlhKFkQ:>QIM0
+I96J3ECccUfYg[lZlU6da60
+VVBe1;V6_flaRWTk`RzOfi0
+R1
+w1458545339
+8E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt
+FE:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1458545345.818000
+!s107 E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Zircon_Verilog/Verilog_First/simulation/modelsim|E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+E:/Zircon_Verilog/Verilog_First/simulation/modelsim -O0
+n@verilog_@first_vlg_tst

@@ -1,0 +1,106 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Zircon_Verilog\Verilog_First\simulation\qsim
+vVerilog_First
+IOK4U<z:Bh9=m>jQ_D[_<g0
+Z1 VkRgWKAJfeM4Gh^SU;?YCP1
+Z2 dE:\IntegratedData\05_Supporting_source_data\03_Software_tools_code\Verilog_First\simulation\qsim
+w1507302551
+Z3 8Verilog_First.vo
+Z4 FVerilog_First.vo
+L0 31
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s90 -work|work|Verilog_First.vo|
+Z7 o-work work -O0
+Z8 n@verilog_@first
+!i10b 1
+!s100 3RL2=95??L<PRJ4Tc3_440
+!s85 0
+!s108 1507302552.911000
+Z9 !s107 Verilog_First.vo|
+!s101 -O0
+vVerilog_First_vlg_check_tst
+!i10b 1
+!s100 >3]MMUCOo;^9H^o3[WBc23
+INTZj3WdkUl6BSV>PXU:]R1
+Z10 V0`<8fSijC:?5J=On4m^Bb3
+R2
+Z11 w1507302549
+Z12 8Waveform1.vwf.vt
+Z13 FWaveform1.vwf.vt
+L0 59
+R5
+r1
+!s85 0
+31
+Z14 !s108 1507302553.223000
+Z15 !s107 Waveform1.vwf.vt|
+Z16 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R7
+Z17 n@verilog_@first_vlg_check_tst
+vVerilog_First_vlg_sample_tst
+!i10b 1
+!s100 mWF7cXmYS7>9oHU8TQ59A2
+Ii2niiez^214<OFm68GRMh1
+Z18 VQ:0Aoj]aSZYZLlIe>@A:D2
+R2
+R11
+R12
+R13
+L0 29
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R7
+Z19 n@verilog_@first_vlg_sample_tst
+vVerilog_First_vlg_tst
+I96J3ECccUfYg[lZlU6da60
+VVBe1;V6_flaRWTk`RzOfi0
+Z20 dE:\Zircon_Verilog\Verilog_First\simulation\qsim
+w1458545339
+8E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt
+FE:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt
+L0 28
+R5
+r1
+31
+o-vlog01compat -work work -O0
+n@verilog_@first_vlg_tst
+!i10b 1
+!s100 4Sj:V34KYzlhKFkQ:>QIM0
+!s85 0
+!s108 1479965285.488000
+!s107 E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Zircon_Verilog/Verilog_First/simulation/modelsim|E:/Zircon_Verilog/Verilog_First/simulation/modelsim/Verilog_First.vt|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/Zircon_Verilog/Verilog_First/simulation/modelsim -O0
+vVerilog_First_vlg_vec_tst
+!i10b 1
+!s100 YhOG_DIUJe;0be4FMEaYk2
+IRQ<25<@5_mWmJiFH6B<`m1
+Z21 Vc0T1PKC3`>>jJ4<mgG8572
+R2
+R11
+R12
+R13
+Z22 L0 155
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R7
+Z23 n@verilog_@first_vlg_vec_tst

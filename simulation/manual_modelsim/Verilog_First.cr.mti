@@ -1,0 +1,17 @@
+E:/Zircon_Verilog/Verilog_First/simulation/manual_modelsim/Verilog_First.v {1 {vlog -work work E:/Zircon_Verilog/Verilog_First/simulation/manual_modelsim/Verilog_First.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Verilog_First
+
+Top level modules:
+	Verilog_First
+
+} {} {}} E:/Zircon_Verilog/Verilog_First/simulation/manual_modelsim/Verilog_First.vt {1 {vlog -work work {E:\Zircon_Verilog\Verilog_First\simulation\manual_modelsim\Verilog_First.vt}
+
+} {} {}} E:/Zircon_Verilog/Verilog_First/simulation/manual_modelsim/Verilog_First.vo {1 {vlog -work work E:/Zircon_Verilog/Verilog_First/simulation/manual_modelsim/Verilog_First.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Verilog_First
+
+Top level modules:
+	Verilog_First
+
+} {} {}}
