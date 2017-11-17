@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Zircon_Verilog\Verilog_First\simulation\qsim
+vVerilog_First
+Z1 IG:96QjU0Yh@<Y0Nmz4m[f0
+Z2 VkRgWKAJfeM4Gh^SU;?YCP1
+Z3 dE:\Zircon_Verilog\Verilog_First\simulation\qsim
+Z4 w1479964318
+Z5 8Verilog_First.vo
+Z6 FVerilog_First.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Verilog_First.vo|
+Z9 o-work work -O0
+Z10 n@verilog_@first
+!i10b 1
+Z11 !s100 [MzWN7<F=NE6zbb>0fBf^1
+!s85 0
+Z12 !s108 1479964319.574000
+Z13 !s107 Verilog_First.vo|
+!s101 -O0
+vVerilog_First_vlg_check_tst
+!i10b 1
+Z14 !s100 ofe64cXLBQhV779l[9=_;3
+Z15 I96AMFD=We5mo[SGXlSkPJ0
+Z16 V0`<8fSijC:?5J=On4m^Bb3
+R3
+Z17 w1479964317
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z20 !s108 1479964320.534000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@verilog_@first_vlg_check_tst
+vVerilog_First_vlg_sample_tst
+!i10b 1
+Z24 !s100 K<0MTb^4diJackTl]C5ek1
+Z25 ID^26UA]F]X:8iElMjP9i;2
+Z26 VQ:0Aoj]aSZYZLlIe>@A:D2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@verilog_@first_vlg_sample_tst
+vVerilog_First_vlg_vec_tst
+!i10b 1
+Z28 !s100 BDHe:>dKBV:`nnhcPhmIP2
+Z29 I8mSY_RdCJ14ZIBZ6T2Xfi1
+Z30 Vc0T1PKC3`>>jJ4<mgG8572
+R3
+R17
+R18
+R19
+Z31 L0 155
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@verilog_@first_vlg_vec_tst

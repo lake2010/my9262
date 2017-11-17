@@ -1,0 +1,65 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "03/20/2016 21:28:43"
+                                                                                
+// Verilog Test Bench template for design : Verilog_First
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module Verilog_First_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+
+reg	CLK_24M;				//
+reg	RST_N;				//
+wire  my9262_Lat;
+wire  my9262_Dclk;
+wire  my9262_Gck;
+wire  my9262_Di;                                           
+
+// assign statements (if any)                          
+Verilog_First my9262(
+// port map - connection between master ports and signals/registers   
+	.CLK_24M(CLK_24M),
+	.RST_N(RST_N),
+	.my9262_Lat(my9262_Lat),
+	.my9262_Dclk(my9262_Dclk),
+	.my9262_Gck(my9262_Gck),
+	.my9262_Di(my9262_Di)
+);
+
+initial 
+begin
+	#0 CLK_24M = 1'b0;
+	#0 RST_N = 1'b0;
+	#0 RST_N = 1'b1;
+	#1000000000 $stop;//1ms
+end 
+
+always #20833//8333
+begin
+	CLK_24M = ~CLK_24M;    
+end                                                  
+endmodule
+
