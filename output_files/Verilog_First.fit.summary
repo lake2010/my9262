@@ -1,16 +1,16 @@
-Fitter Status : Successful - Fri Nov 17 17:47:57 2017
+Fitter Status : Failed - Sun Nov 19 14:02:13 2017
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : Verilog_First
 Top-level Entity Name : Verilog_First
 Family : Cyclone IV E
 Device : EP4CE6E22C8
 Timing Models : Final
-Total logic elements : 1,008 / 6,272 ( 16 % )
-    Total combinational functions : 616 / 6,272 ( 10 % )
-    Dedicated logic registers : 832 / 6,272 ( 13 % )
-Total registers : 832
-Total pins : 6 / 92 ( 7 % )
+Total logic elements : 668 / 6,272 ( 11 % )
+    Total combinational functions : 484 / 6,272 ( 8 % )
+    Dedicated logic registers : 489 / 6,272 ( 8 % )
+Total registers : 489
+Total pins : 7 / 92 ( 8 % )
 Total virtual pins : 0
-Total memory bits : 59,392 / 276,480 ( 21 % )
+Total memory bits : 896 / 276,480 ( < 1 % )
 Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
 Total PLLs : 1 / 2 ( 50 % )
