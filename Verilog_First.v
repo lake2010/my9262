@@ -13,11 +13,11 @@ output           	my9262_Dclk;
 output           	my9262_Gck;                             
 output          	my9262_Di;
 
-wire					CLK_60M;
+wire					CLK_200M;
 
 my9262 my9262_Init
 (
-    .CLK_60M		(CLK_60M),
+    .CLK_200M		(CLK_200M),
     .RST_N			(RST_N),
     .my9262_Lat	(my9262_Lat),
 	 .my9262_Dclk	(my9262_Dclk),
@@ -28,7 +28,7 @@ my9262 my9262_Init
 PLL	PLL_inst 
 (
 	.inclk0 ( CLK_24M ),
-	.c0 	  ( CLK_60M )
+	.c0 	  ( CLK_200M )
 );
 endmodule
 		
