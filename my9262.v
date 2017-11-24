@@ -30,8 +30,8 @@ reg			[ 3:0]	lat_Fsm_Cs;
 reg			[ 3:0]	lat_Fsm_Ns;			
 reg			[ 9:0]	bit_cnt;		
 reg			[ 9:0]	bit_cnt_n;		
-reg			[15:0]	shift_reg;			
-reg			[15:0]	shift_reg_n;		
+reg			[31:0]	shift_reg;			
+reg			[31:0]	shift_reg_n;		
 reg			[ 4:0]	time_cnt;			
 reg			[ 4:0]	time_cnt_n;		
 reg						my9262_Lat_N;		
@@ -47,7 +47,7 @@ reg			[3:0]		pwm_Count_N;
 //reg			[9:0]		grayScaleLatch_N;				
 reg			[4:0]		overrallLatch;				
 reg			[4:0]		overrallLatch_N;			
-parameter				Period = 4'd3;		
+parameter				Period = 4'd5;		
 
 parameter				twLat = 4'd10,tsuLat = 1'd1,thLat = 3'd4;
 parameter				twDck = 3'd3,twDck_Half = 3'd1;
@@ -317,12 +317,12 @@ begin
 	if(my9262_Fsm_Cs != my9262_Fsm_Send_Data)	
 		begin
 			if(data_Fsm_Cs != data_Fsm_Send)	
-				shift_reg_n = 16'h0EA0;//my9262_Data//0AA0//增益101010
+				shift_reg_n = 32'h0EA00000;//my9262_Data//0AA0//增益101010
 			else
-				shift_reg_n = 16'h00FF;
+				shift_reg_n = 32'h00FF00FF;
 		end		
 	else if(my9262_Dclk && (!my9262_Dclk_N))// &&  && (time_cnt == 4'h0)
-		shift_reg_n = {shift_reg[14:0] , 1'h0};
+		shift_reg_n = {shift_reg[30:0] , 1'h0};
 	else
 		shift_reg_n = shift_reg;	
 end
@@ -514,7 +514,7 @@ begin
 end
 
 assign my9262_Gck = my9262_Pwm;
-assign my9262_Di = shift_reg[15];	
+assign my9262_Di = shift_reg[31];	
 //assign send_finish = (my9262_Fsm_Cs == my9262_Fsm_Idle);	
 
 endmodule
