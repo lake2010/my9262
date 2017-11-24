@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Verilog_First
-Thu Nov 23 17:25:44 2017
+Fri Nov 24 19:16:03 2017
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -21,18 +21,17 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
  13. State Machine - |Verilog_First|my9262:my9262_Init|data_Fsm_Cs
  14. User-Specified and Inferred Latches
  15. Registers Removed During Synthesis
- 16. Removed Registers Triggering Further Register Optimizations
- 17. General Register Statistics
- 18. Inverted Register Statistics
- 19. Multiplexer Restructuring Statistics (Restructuring Performed)
- 20. Parameter Settings for User Entity Instance: my9262:my9262_Init
- 21. Parameter Settings for User Entity Instance: PLL:PLL_inst|altpll:altpll_component
- 22. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 23. altpll Parameter Settings by Entity Instance
- 24. SignalTap II Logic Analyzer Settings
- 25. Elapsed Time Per Partition
- 26. Connections to In-System Debugging Instance "auto_signaltap_0"
- 27. Analysis & Synthesis Messages
+ 16. General Register Statistics
+ 17. Inverted Register Statistics
+ 18. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 19. Parameter Settings for User Entity Instance: my9262:my9262_Init
+ 20. Parameter Settings for User Entity Instance: PLL:PLL_inst|altpll:altpll_component
+ 21. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 22. altpll Parameter Settings by Entity Instance
+ 23. SignalTap II Logic Analyzer Settings
+ 24. Elapsed Time Per Partition
+ 25. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 26. Analysis & Synthesis Messages
 
 
 
@@ -58,15 +57,15 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 23 17:25:44 2017       ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 24 19:16:03 2017       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; Verilog_First                               ;
 ; Top-level Entity Name              ; Verilog_First                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 869                                         ;
-;     Total combinational functions  ; 628                                         ;
-;     Dedicated logic registers      ; 631                                         ;
-; Total registers                    ; 631                                         ;
+; Total logic elements               ; 870                                         ;
+;     Total combinational functions  ; 629                                         ;
+;     Dedicated logic registers      ; 634                                         ;
+; Total registers                    ; 634                                         ;
 ; Total pins                         ; 6                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 98,304                                      ;
@@ -171,12 +170,11 @@ applicable agreement for further details.
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ; < 0.1%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -251,20 +249,20 @@ applicable agreement for further details.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimated Total logic elements              ; 869                      ;
+; Estimated Total logic elements              ; 870                      ;
 ;                                             ;                          ;
-; Total combinational functions               ; 628                      ;
+; Total combinational functions               ; 629                      ;
 ; Logic element usage by number of LUT inputs ;                          ;
-;     -- 4 input functions                    ; 223                      ;
+;     -- 4 input functions                    ; 226                      ;
 ;     -- 3 input functions                    ; 185                      ;
-;     -- <=2 input functions                  ; 220                      ;
+;     -- <=2 input functions                  ; 218                      ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 501                      ;
+;     -- normal mode                          ; 502                      ;
 ;     -- arithmetic mode                      ; 127                      ;
 ;                                             ;                          ;
-; Total registers                             ; 631                      ;
-;     -- Dedicated logic registers            ; 631                      ;
+; Total registers                             ; 634                      ;
+;     -- Dedicated logic registers            ; 634                      ;
 ;     -- I/O registers                        ; 0                        ;
 ;                                             ;                          ;
 ; I/O pins                                    ; 6                        ;
@@ -275,8 +273,8 @@ applicable agreement for further details.
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 379                      ;
-; Total fan-out                               ; 4415                     ;
-; Average fan-out                             ; 3.41                     ;
+; Total fan-out                               ; 4434                     ;
+; Average fan-out                             ; 3.42                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -285,13 +283,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                              ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                ; Library Name ;
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |Verilog_First                                                                                          ; 628 (1)           ; 631 (0)      ; 98304       ; 0            ; 0       ; 0         ; 6    ; 0            ; |Verilog_First                                                                                                                                                                                                                                                                                                                                     ; work         ;
+; |Verilog_First                                                                                          ; 629 (1)           ; 634 (0)      ; 98304       ; 0            ; 0       ; 0         ; 6    ; 0            ; |Verilog_First                                                                                                                                                                                                                                                                                                                                     ; work         ;
 ;    |PLL:PLL_inst|                                                                                       ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|PLL:PLL_inst                                                                                                                                                                                                                                                                                                                        ; work         ;
 ;       |altpll:altpll_component|                                                                         ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|PLL:PLL_inst|altpll:altpll_component                                                                                                                                                                                                                                                                                                ; work         ;
 ;          |PLL_altpll:auto_generated|                                                                    ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|PLL:PLL_inst|altpll:altpll_component|PLL_altpll:auto_generated                                                                                                                                                                                                                                                                      ; work         ;
-;    |my9262:my9262_Init|                                                                                 ; 108 (108)         ; 64 (64)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|my9262:my9262_Init                                                                                                                                                                                                                                                                                                                  ; work         ;
-;    |sld_hub:auto_hub|                                                                                   ; 122 (1)           ; 90 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                    ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 121 (83)          ; 90 (62)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                       ; work         ;
+;    |my9262:my9262_Init|                                                                                 ; 111 (111)         ; 67 (67)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|my9262:my9262_Init                                                                                                                                                                                                                                                                                                                  ; work         ;
+;    |sld_hub:auto_hub|                                                                                   ; 120 (1)           ; 90 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                    ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 119 (81)          ; 90 (62)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                       ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                                                                      ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                               ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                                    ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                             ; work         ;
 ;    |sld_signaltap:auto_signaltap_0|                                                                     ; 397 (1)           ; 477 (12)     ; 98304       ; 0            ; 0       ; 0         ; 0    ; 0            ; |Verilog_First|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                      ; work         ;
@@ -416,47 +414,35 @@ Encoding Type:  One-Hot
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+--------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                         ;
-+--------------------------------------------+-----------------------------------------------+
-; Register name                              ; Reason for Removal                            ;
-+--------------------------------------------+-----------------------------------------------+
-; my9262:my9262_Init|single_Data[1..3,6,8,9] ; Stuck at GND due to stuck port data_in        ;
-; my9262:my9262_Init|lat_1_Times[1..3]       ; Stuck at GND due to stuck port data_in        ;
-; my9262:my9262_Init|lat_2_Times[0..3]       ; Stuck at GND due to stuck port data_in        ;
-; my9262:my9262_Init|edge_Times[2]           ; Stuck at GND due to stuck port data_in        ;
-; my9262:my9262_Init|single_Data[5]          ; Merged with my9262:my9262_Init|single_Data[7] ;
-; my9262:my9262_Init|lat_1_Times[4]          ; Merged with my9262:my9262_Init|single_Data[7] ;
-; my9262:my9262_Init|lat_2_Times[4]          ; Merged with my9262:my9262_Init|single_Data[7] ;
-; my9262:my9262_Init|lat_1_Times[0]          ; Merged with my9262:my9262_Init|single_Data[4] ;
-; my9262:my9262_Init|edge_Times[3]           ; Merged with my9262:my9262_Init|single_Data[4] ;
-; my9262:my9262_Init|edge_Times[1]           ; Merged with my9262:my9262_Init|edge_Times[0]  ;
-; my9262:my9262_Init|single_Data[0]          ; Merged with my9262:my9262_Init|edge_Times[0]  ;
-; my9262:my9262_Init|shift_reg[0,1]          ; Stuck at GND due to stuck port data_in        ;
-; my9262:my9262_Init|my9262_Fsm_Cs~4         ; Lost fanout                                   ;
-; my9262:my9262_Init|my9262_Fsm_Cs~5         ; Lost fanout                                   ;
-; my9262:my9262_Init|my9262_Fsm_Cs~6         ; Lost fanout                                   ;
-; my9262:my9262_Init|my9262_Fsm_Cs~7         ; Lost fanout                                   ;
-; my9262:my9262_Init|lat_Fsm_Cs~6            ; Lost fanout                                   ;
-; my9262:my9262_Init|lat_Fsm_Cs~7            ; Lost fanout                                   ;
-; my9262:my9262_Init|command_Fsm_Cs~5        ; Lost fanout                                   ;
-; my9262:my9262_Init|command_Fsm_Cs~6        ; Lost fanout                                   ;
-; my9262:my9262_Init|command_Fsm_Cs~7        ; Lost fanout                                   ;
-; my9262:my9262_Init|data_Fsm_Cs~5           ; Lost fanout                                   ;
-; my9262:my9262_Init|data_Fsm_Cs~6           ; Lost fanout                                   ;
-; my9262:my9262_Init|data_Fsm_Cs~7           ; Lost fanout                                   ;
-; Total Number of Removed Registers = 35     ;                                               ;
-+--------------------------------------------+-----------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                          ;
-+---------------------------------+---------------------------+----------------------------------------+
-; Register name                   ; Reason for Removal        ; Registers Removed due to This Register ;
-+---------------------------------+---------------------------+----------------------------------------+
-; my9262:my9262_Init|shift_reg[0] ; Stuck at GND              ; my9262:my9262_Init|shift_reg[1]        ;
-;                                 ; due to stuck port data_in ;                                        ;
-+---------------------------------+---------------------------+----------------------------------------+
++-------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                        ;
++-------------------------------------------+-----------------------------------------------+
+; Register name                             ; Reason for Removal                            ;
++-------------------------------------------+-----------------------------------------------+
+; my9262:my9262_Init|single_Data[1..3,6..9] ; Stuck at GND due to stuck port data_in        ;
+; my9262:my9262_Init|lat_1_Times[1..3]      ; Stuck at GND due to stuck port data_in        ;
+; my9262:my9262_Init|lat_2_Times[0..3]      ; Stuck at GND due to stuck port data_in        ;
+; my9262:my9262_Init|edge_Times[2]          ; Stuck at GND due to stuck port data_in        ;
+; my9262:my9262_Init|lat_1_Times[4]         ; Merged with my9262:my9262_Init|single_Data[5] ;
+; my9262:my9262_Init|lat_2_Times[4]         ; Merged with my9262:my9262_Init|single_Data[5] ;
+; my9262:my9262_Init|lat_1_Times[0]         ; Merged with my9262:my9262_Init|single_Data[4] ;
+; my9262:my9262_Init|edge_Times[3]          ; Merged with my9262:my9262_Init|single_Data[4] ;
+; my9262:my9262_Init|edge_Times[1]          ; Merged with my9262:my9262_Init|edge_Times[0]  ;
+; my9262:my9262_Init|single_Data[0]         ; Merged with my9262:my9262_Init|edge_Times[0]  ;
+; my9262:my9262_Init|my9262_Fsm_Cs~4        ; Lost fanout                                   ;
+; my9262:my9262_Init|my9262_Fsm_Cs~5        ; Lost fanout                                   ;
+; my9262:my9262_Init|my9262_Fsm_Cs~6        ; Lost fanout                                   ;
+; my9262:my9262_Init|my9262_Fsm_Cs~7        ; Lost fanout                                   ;
+; my9262:my9262_Init|lat_Fsm_Cs~6           ; Lost fanout                                   ;
+; my9262:my9262_Init|lat_Fsm_Cs~7           ; Lost fanout                                   ;
+; my9262:my9262_Init|command_Fsm_Cs~5       ; Lost fanout                                   ;
+; my9262:my9262_Init|command_Fsm_Cs~6       ; Lost fanout                                   ;
+; my9262:my9262_Init|command_Fsm_Cs~7       ; Lost fanout                                   ;
+; my9262:my9262_Init|data_Fsm_Cs~5          ; Lost fanout                                   ;
+; my9262:my9262_Init|data_Fsm_Cs~6          ; Lost fanout                                   ;
+; my9262:my9262_Init|data_Fsm_Cs~7          ; Lost fanout                                   ;
+; Total Number of Removed Registers = 33    ;                                               ;
++-------------------------------------------+-----------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -464,12 +450,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 631   ;
+; Total registers                              ; 634   ;
 ; Number of registers using Synchronous Clear  ; 75    ;
 ; Number of registers using Synchronous Load   ; 71    ;
-; Number of registers using Asynchronous Clear ; 294   ;
+; Number of registers using Asynchronous Clear ; 297   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 416   ;
+; Number of registers using Clock Enable       ; 418   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -508,16 +494,16 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                           ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------+
 ; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|overrallLatch[3]                                                                   ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|config_Times[2]                                                                    ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|data_Times[2]                                                                      ;
-; 3:1                ; 17 bits   ; 34 LEs        ; 17 LEs               ; 17 LEs                 ; Yes        ; |Verilog_First|my9262:my9262_Init|bit_cnt[7]                                                                         ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|shift_reg[4]                                                                       ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|time_cnt[2]                                                                        ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|config_Times[5]                                                                    ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|data_Times[0]                                                                      ;
+; 3:1                ; 17 bits   ; 34 LEs        ; 17 LEs               ; 17 LEs                 ; Yes        ; |Verilog_First|my9262:my9262_Init|bit_cnt[9]                                                                         ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|shift_reg[11]                                                                      ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|my9262:my9262_Init|time_cnt[0]                                                                        ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|hub_minor_ver_reg[0]                    ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|mixer_addr_reg[4]                       ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|word_counter[0] ;
 ; 6:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[2]                             ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 60 LEs               ; 28 LEs                 ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[0]                      ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[0]                      ;
 ; 20:1               ; 4 bits    ; 52 LEs        ; 32 LEs               ; 20 LEs                 ; Yes        ; |Verilog_First|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------+
 
@@ -527,7 +513,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +------------------------+--------+-------------------------------+
 ; Parameter Name         ; Value  ; Type                          ;
 +------------------------+--------+-------------------------------+
-; Period                 ; 111    ; Unsigned Binary               ;
+; Period                 ; 0011   ; Unsigned Binary               ;
 ; twLat                  ; 1010   ; Unsigned Binary               ;
 ; tsuLat                 ; 1      ; Unsigned Binary               ;
 ; thLat                  ; 100    ; Unsigned Binary               ;
@@ -550,7 +536,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; lat_Fsm_Overrall_Latch ; 010    ; Unsigned Binary               ;
 ; data_Fsm_Config        ; 000    ; Unsigned Binary               ;
 ; data_Fsm_Send          ; 001    ; Unsigned Binary               ;
-; my9262_Number          ; 001010 ; Unsigned Binary               ;
+; my9262_Number          ; 100000 ; Unsigned Binary               ;
 +------------------------+--------+-------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -597,7 +583,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CLK3_MULTIPLY_BY              ; 1                     ; Untyped                   ;
 ; CLK2_MULTIPLY_BY              ; 1                     ; Untyped                   ;
 ; CLK1_MULTIPLY_BY              ; 1                     ; Untyped                   ;
-; CLK0_MULTIPLY_BY              ; 25                    ; Signed Integer            ;
+; CLK0_MULTIPLY_BY              ; 10                    ; Signed Integer            ;
 ; CLK9_DIVIDE_BY                ; 0                     ; Untyped                   ;
 ; CLK8_DIVIDE_BY                ; 0                     ; Untyped                   ;
 ; CLK7_DIVIDE_BY                ; 0                     ; Untyped                   ;
@@ -607,7 +593,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CLK3_DIVIDE_BY                ; 1                     ; Untyped                   ;
 ; CLK2_DIVIDE_BY                ; 1                     ; Untyped                   ;
 ; CLK1_DIVIDE_BY                ; 1                     ; Untyped                   ;
-; CLK0_DIVIDE_BY                ; 3                     ; Signed Integer            ;
+; CLK0_DIVIDE_BY                ; 1                     ; Signed Integer            ;
 ; CLK9_PHASE_SHIFT              ; 0                     ; Untyped                   ;
 ; CLK8_PHASE_SHIFT              ; 0                     ; Untyped                   ;
 ; CLK7_PHASE_SHIFT              ; 0                     ; Untyped                   ;
@@ -1052,7 +1038,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Thu Nov 23 17:25:35 2017
+    Info: Processing started: Fri Nov 24 19:15:54 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Verilog_First -c Verilog_First
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Warning (10238): Verilog Module Declaration warning at Verilog_First.v(7): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "Verilog_First"
@@ -1063,23 +1049,24 @@ Info (12021): Found 1 design units, including 1 entities, in source file pll.v
 Warning (10238): Verilog Module Declaration warning at my9262.v(9): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "my9262"
 Info (12021): Found 1 design units, including 1 entities, in source file my9262.v
     Info (12023): Found entity 1: my9262
-Warning (10037): Verilog HDL or VHDL warning at my9262.v(116): conditional expression evaluates to a constant
-Warning (10037): Verilog HDL or VHDL warning at my9262.v(165): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at my9262.v(115): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at my9262.v(164): conditional expression evaluates to a constant
 Info (12127): Elaborating entity "Verilog_First" for the top level hierarchy
 Info (12128): Elaborating entity "my9262" for hierarchy "my9262:my9262_Init"
-Warning (10230): Verilog HDL assignment warning at my9262.v(129): truncated value with size 6 to match size of target (5)
-Warning (10230): Verilog HDL assignment warning at my9262.v(138): truncated value with size 6 to match size of target (5)
-Warning (10230): Verilog HDL assignment warning at my9262.v(140): truncated value with size 6 to match size of target (5)
-Warning (10240): Verilog HDL Always Construct warning at my9262.v(416): inferring latch(es) for variable "my9262_Dclk_N", which holds its previous value in one or more paths through the always construct
-Info (10041): Inferred latch for "my9262_Dclk_N" at my9262.v(423)
+Warning (10230): Verilog HDL assignment warning at my9262.v(128): truncated value with size 6 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at my9262.v(137): truncated value with size 6 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at my9262.v(139): truncated value with size 6 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at my9262.v(309): truncated value with size 32 to match size of target (16)
+Warning (10240): Verilog HDL Always Construct warning at my9262.v(415): inferring latch(es) for variable "my9262_Dclk_N", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "my9262_Dclk_N" at my9262.v(422)
 Info (12128): Elaborating entity "PLL" for hierarchy "PLL:PLL_inst"
 Info (12128): Elaborating entity "altpll" for hierarchy "PLL:PLL_inst|altpll:altpll_component"
 Info (12130): Elaborated megafunction instantiation "PLL:PLL_inst|altpll:altpll_component"
 Info (12133): Instantiated megafunction "PLL:PLL_inst|altpll:altpll_component" with the following parameter:
     Info (12134): Parameter "bandwidth_type" = "AUTO"
-    Info (12134): Parameter "clk0_divide_by" = "3"
+    Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
-    Info (12134): Parameter "clk0_multiply_by" = "25"
+    Info (12134): Parameter "clk0_multiply_by" = "10"
     Info (12134): Parameter "clk0_phase_shift" = "0"
     Info (12134): Parameter "compensate_clock" = "CLK0"
     Info (12134): Parameter "inclk0_input_frequency" = "41666"
@@ -1170,16 +1157,16 @@ Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub
 Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 12 of its 13 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 1 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 915 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 916 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 891 logic cells
+    Info (21061): Implemented 892 logic cells
     Info (21064): Implemented 12 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 623 megabytes
-    Info: Processing ended: Thu Nov 23 17:25:44 2017
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 619 megabytes
+    Info: Processing ended: Fri Nov 24 19:16:03 2017
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:08
+    Info: Total CPU time (on all processors): 00:00:09
 
 

@@ -41,14 +41,13 @@ reg						my9262_Dclk_N;
 //reg						my9262_Command_N;
 reg						my9262_Pwm;
 reg						my9262_Pwm_N;			
-reg			[2:0]		pwm_Count;				
-reg			[2:0]		pwm_Count_N;				
+reg			[3:0]		pwm_Count;				
+reg			[3:0]		pwm_Count_N;				
 //reg			[9:0]		grayScaleLatch;				
 //reg			[9:0]		grayScaleLatch_N;				
 reg			[4:0]		overrallLatch;				
 reg			[4:0]		overrallLatch_N;			
-
-parameter				Period = 3'd7;		
+parameter				Period = 4'd3;		
 
 parameter				twLat = 4'd10,tsuLat = 1'd1,thLat = 3'd4;
 parameter				twDck = 3'd3,twDck_Half = 3'd1;
@@ -92,7 +91,7 @@ reg			[ 3:0]	data_Fsm_Ns;
 reg			[ 4:0]	data_Times;
 reg			[ 4:0]	data_Times_N;				
 
-parameter 				my9262_Number = 6'd10;
+parameter 				my9262_Number = 6'd32;
 //时序电路,用来给data_Fsm_Cs寄存器赋值
 always @ (posedge CLK_200M or negedge RST_N)
 begin	
@@ -107,7 +106,7 @@ always @ (*)
 begin
 	case(data_Fsm_Cs)							                         
 		data_Fsm_Config:
-			if(data_Times == my9262_Number)//
+			if(data_Times == my9262_Number - 1)//
 				data_Fsm_Ns = data_Fsm_Send;								
 			else			
 				data_Fsm_Ns = data_Fsm_Cs;		
@@ -186,7 +185,7 @@ begin
 	if(command_Fsm_Cs == command_Fsm_Config)				
 		single_Data_N = 10'd17;
 	else
-		single_Data_N = 10'd161;//
+		single_Data_N = 10'd33;//
 end
 
 //时序电路,用来给lat_Times寄存器赋值
@@ -307,7 +306,7 @@ end
 always @ (posedge CLK_200M or negedge RST_N)
 begin
 	if(!RST_N)							
-		shift_reg <= 16'h0;			
+		shift_reg <= 32'h0;			
 	else
 		shift_reg <= shift_reg_n;	
 end
@@ -318,9 +317,9 @@ begin
 	if(my9262_Fsm_Cs != my9262_Fsm_Send_Data)	
 		begin
 			if(data_Fsm_Cs != data_Fsm_Send)	
-				shift_reg_n = 16'h0EB0;//my9262_Data//1AB0
+				shift_reg_n = 16'h0EA0;//my9262_Data//0AA0//增益101010
 			else
-				shift_reg_n = 16'd100;
+				shift_reg_n = 16'h00FF;
 		end		
 	else if(my9262_Dclk && (!my9262_Dclk_N))// &&  && (time_cnt == 4'h0)
 		shift_reg_n = {shift_reg[14:0] , 1'h0};
@@ -481,7 +480,7 @@ end
 always @ (posedge CLK_200M or negedge RST_N)
 begin
 	if(!RST_N)								
-		pwm_Count <= 2'b0;					
+		pwm_Count <= 4'b0;					
 	else
 		pwm_Count <= pwm_Count_N;			
 end
@@ -490,7 +489,7 @@ end
 always @ (*)
 begin
 	if(pwm_Count == Period)						
-		pwm_Count_N = 2'b0;				
+		pwm_Count_N = 4'b0;				
 	else
 		pwm_Count_N = pwm_Count + 1'b1;		
 
