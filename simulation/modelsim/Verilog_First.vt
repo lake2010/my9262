@@ -39,14 +39,14 @@ wire  my9262_Gck;
 wire  my9262_Di;                                           
 
 // assign statements (if any)                          
-Verilog_First my9262(
+my9262 my9262(
 // port map - connection between master ports and signals/registers   
-	.CLK_24M(CLK_24M),
-	.RST_N(RST_N),
-	.my9262_Lat(my9262_Lat),
-	.my9262_Dclk(my9262_Dclk),
-	.my9262_Gck(my9262_Gck),
-	.my9262_Di(my9262_Di)
+	.csi_clk(CLK_24M),
+	.rsi_reset_n(RST_N),
+	.coe_my9262_Lat(my9262_Lat),
+	.coe_my9262_Dclk(my9262_Dclk),
+	.coe_my9262_Gck(my9262_Gck),
+	.coe_my9262_Di(my9262_Di)
 );
 
 initial 

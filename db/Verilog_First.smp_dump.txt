@@ -1,7 +1,7 @@
 
 State Machine - |Verilog_First|my9262:my9262_Init|my9262_Fsm_Cs
-Name my9262_Fsm_Cs.my9262_Fsm_Finish my9262_Fsm_Cs.my9262_Fsm_Latch my9262_Fsm_Cs.my9262_Fsm_Wait my9262_Fsm_Cs.my9262_Fsm_Send_Data my9262_Fsm_Cs.command_Fsm_Config 
-my9262_Fsm_Cs.command_Fsm_Config 0 0 0 0 0 
+Name my9262_Fsm_Cs.my9262_Fsm_Finish my9262_Fsm_Cs.my9262_Fsm_Latch my9262_Fsm_Cs.my9262_Fsm_Wait my9262_Fsm_Cs.my9262_Fsm_Send_Data my9262_Fsm_Cs.my9262_Fsm_Idle 
+my9262_Fsm_Cs.my9262_Fsm_Idle 0 0 0 0 0 
 my9262_Fsm_Cs.my9262_Fsm_Send_Data 0 0 0 1 1 
 my9262_Fsm_Cs.my9262_Fsm_Wait 0 0 1 0 1 
 my9262_Fsm_Cs.my9262_Fsm_Latch 0 1 0 0 1 

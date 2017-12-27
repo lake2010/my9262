@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Fri Nov 24 20:52:57 2017
+Analysis & Synthesis Status : Successful - Thu Nov 30 14:01:52 2017
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : Verilog_First
 Top-level Entity Name : Verilog_First
 Family : Cyclone IV E
-Total logic elements : 888
-    Total combinational functions : 647
-    Dedicated logic registers : 650
-Total registers : 650
+Total logic elements : 868
+    Total combinational functions : 627
+    Dedicated logic registers : 633
+Total registers : 633
 Total pins : 6
 Total virtual pins : 0
 Total memory bits : 98,304

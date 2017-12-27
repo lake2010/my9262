@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 27 00:08:59 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : my9262
+Top-level Entity Name : my9262
+Family : Cyclone IV E
+Total logic elements : 144
+    Total combinational functions : 126
+    Dedicated logic registers : 89
+Total registers : 89
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

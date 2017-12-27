@@ -1,5 +1,5 @@
 Flow report for Verilog_First
-Fri Nov 24 20:53:16 2017
+Thu Nov 30 14:02:09 2017
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 24 20:53:16 2017       ;
+; Flow Status                        ; Successful - Thu Nov 30 14:02:09 2017       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; Verilog_First                               ;
 ; Top-level Entity Name              ; Verilog_First                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 857 / 6,272 ( 14 % )                        ;
-;     Total combinational functions  ; 650 / 6,272 ( 10 % )                        ;
-;     Dedicated logic registers      ; 650 / 6,272 ( 10 % )                        ;
-; Total registers                    ; 650                                         ;
+; Total logic elements               ; 838 / 6,272 ( 13 % )                        ;
+;     Total combinational functions  ; 630 / 6,272 ( 10 % )                        ;
+;     Dedicated logic registers      ; 633 / 6,272 ( 10 % )                        ;
+; Total registers                    ; 633                                         ;
 ; Total pins                         ; 6 / 92 ( 7 % )                              ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 98,304 / 276,480 ( 36 % )                   ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/24/2017 20:52:48 ;
+; Start date & time ; 11/30/2017 14:01:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Verilog_First       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------------------------------------------------------------------+---------------+-------------+-----------------------+
 ; Assignment Name                      ; Value                                                                                             ; Default Value ; Entity Name ; Section Id            ;
 +--------------------------------------+---------------------------------------------------------------------------------------------------+---------------+-------------+-----------------------+
-; COMPILER_SIGNATURE_ID                ; 53447164543758.151152796814632                                                                    ; --            ; --          ; --                    ;
+; COMPILER_SIGNATURE_ID                ; 53447164543758.151202170314956                                                                    ; --            ; --          ; --                    ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                ; --            ; --          ; Verilog_First_vlg_tst ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                                                               ; --            ; --          ; eda_simulation        ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Verilog_First_vlg_tst                                                                             ; --            ; --          ; eda_simulation        ;
@@ -140,11 +140,11 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 619 MB              ; 00:00:09                           ;
-; Fitter                    ; 00:00:07     ; 1.0                     ; 1145 MB             ; 00:00:07                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 513 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 587 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 492 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:22                           ;
+; Fitter                    ; 00:00:06     ; 1.2                     ; 1137 MB             ; 00:00:07                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 517 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 591 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 492 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:21                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

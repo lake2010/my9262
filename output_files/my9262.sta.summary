@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -5.837
+TNS   : -5.837
+
+Type  : Slow 1200mV 85C Model Setup 'coe_clk_240m'
+Slack : -4.105
+TNS   : -177.527
+
+Type  : Slow 1200mV 85C Model Hold 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -1.392
+TNS   : -1.392
+
+Type  : Slow 1200mV 85C Model Hold 'coe_clk_240m'
+Slack : -0.056
+TNS   : -0.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'coe_clk_240m'
+Slack : -3.000
+TNS   : -110.064
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'csi_clk'
+Slack : -3.000
+TNS   : -28.279
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -5.462
+TNS   : -5.462
+
+Type  : Slow 1200mV 0C Model Setup 'coe_clk_240m'
+Slack : -3.821
+TNS   : -159.673
+
+Type  : Slow 1200mV 0C Model Hold 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -1.219
+TNS   : -1.219
+
+Type  : Slow 1200mV 0C Model Hold 'coe_clk_240m'
+Slack : 0.049
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'coe_clk_240m'
+Slack : -3.000
+TNS   : -110.064
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'csi_clk'
+Slack : -3.000
+TNS   : -28.279
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -2.334
+TNS   : -2.334
+
+Type  : Fast 1200mV 0C Model Setup 'coe_clk_240m'
+Slack : -1.137
+TNS   : -38.636
+
+Type  : Fast 1200mV 0C Model Hold 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : -0.635
+TNS   : -0.635
+
+Type  : Fast 1200mV 0C Model Hold 'coe_clk_240m'
+Slack : -0.278
+TNS   : -1.674
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'coe_clk_240m'
+Slack : -3.000
+TNS   : -79.280
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'csi_clk'
+Slack : -3.000
+TNS   : -21.071
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'my9262_logic:my9262_logic_init|my9262_Dclk'
+Slack : 0.418
+TNS   : 0.000
+
+------------------------------------------------------------

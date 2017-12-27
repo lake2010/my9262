@@ -1,0 +1,58 @@
+module my9262_register
+(
+	//时钟复位
+	csi_clk,rsi_reset_n,
+	//Avalon-MM从端口
+	avs_address,avs_write,avs_writedata,
+	//用户逻辑输入与输出
+	my9262_Data//,da_start
+);
+ 
+input 					csi_clk;			//系统时钟
+input						rsi_reset_n;	//系统复位
+input						avs_address;	//Avalon地址总线
+input						avs_write;		//Avalon写请求信
+input			[31:0]	avs_writedata;	//Avalon写数据总线
+
+output reg 	[15:0]	my9262_Data;	//my9262发送的16位数据
+reg			[15:0]	my9262_Data_N;	//my9262_Data的下一个状态
+//output reg				da_start;		//tlc5615发送开始位
+//reg						da_start_n;		//da_start的下一个状态
+
+//时序电路,用于给数据寄存器进行赋值的
+always @ (posedge csi_clk or negedge rsi_reset_n)
+begin
+	if(!rsi_reset_n)				
+		my9262_Data <= 16'h0000;				
+	else
+		my9262_Data <= my9262_Data_N;				
+end
+	
+//组合电路，用来给地址偏移量0，也就是我们的数据寄存器写16位的数据
+always @ (*)
+begin
+	if((avs_write) && (avs_address == 1'b0))
+		my9262_Data_N = avs_writedata[15:0];	
+	else
+		my9262_Data_N = my9262_Data;					
+end
+
+////时序电路,用于给tlc5615发送开始位进行赋值的
+//always @ (posedge csi_clk or negedge rsi_reset_n)
+//begin
+//	if(!rsi_reset_n)						
+//		da_start <= 1'b0;					
+//	else
+//		da_start <= da_start_n;			
+//end
+//
+////组合电路，用来判断tlc5615发送开始位
+//always @ (*)
+//begin
+//	if((avs_write) && (avs_address == 1'b0))	
+//		da_start_n = 1'b1;				
+//	else
+//		da_start_n = 1'b0;				
+//end
+
+endmodule

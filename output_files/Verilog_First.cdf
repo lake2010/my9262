@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6) Path("E:/my9262/output_files/") File("my9262.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 1));
+		Device PartName(EP4CE6) Path("F:/my9262/output_files/") File("my9262.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 1));
 
 ChainEnd;
 
